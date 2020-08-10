@@ -1,0 +1,11 @@
+framework module iChat {
+  umbrella header "iChat.h"
+
+  export *
+  module * { export * }
+}
+
+module iChat.Swift {
+    header "iChat-Swift.h"
+    requires objc
+}
