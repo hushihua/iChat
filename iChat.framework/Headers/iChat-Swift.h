@@ -191,6 +191,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import CoreGraphics;
 @import ObjectiveC;
 @import UIKit;
+@import UserNotifications;
 @import iPush;
 #endif
 
@@ -278,7 +279,13 @@ SWIFT_CLASS("_TtC5iChat7ChatApi")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UNNotification;
 
+@interface ChatApi (SWIFT_EXTENSION(iChat)) <PushNotificationDelegate>
+- (void)didReceiveWithNotification:(UNNotification * _Nonnull)notification;
+- (void)willPresentWithNotification:(UNNotification * _Nonnull)notification completionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))completionHandler;
+- (void)didReceiveRemoteNotificationWithUserInfo:(NSDictionary * _Nonnull)userInfo;
+@end
 
 
 #if __has_attribute(external_source_symbol)
@@ -478,6 +485,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import CoreGraphics;
 @import ObjectiveC;
 @import UIKit;
+@import UserNotifications;
 @import iPush;
 #endif
 
@@ -565,7 +573,13 @@ SWIFT_CLASS("_TtC5iChat7ChatApi")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UNNotification;
 
+@interface ChatApi (SWIFT_EXTENSION(iChat)) <PushNotificationDelegate>
+- (void)didReceiveWithNotification:(UNNotification * _Nonnull)notification;
+- (void)willPresentWithNotification:(UNNotification * _Nonnull)notification completionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))completionHandler;
+- (void)didReceiveRemoteNotificationWithUserInfo:(NSDictionary * _Nonnull)userInfo;
+@end
 
 
 #if __has_attribute(external_source_symbol)

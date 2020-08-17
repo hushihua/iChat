@@ -6,59 +6,59 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		/8JOdBxEls1Ydii+f4/rf9XqG7U=
+		DT4ZXdwHQyGhR0L6kCFKppCqvDg=
 		</data>
 		<key>CUIMultipleCallingWindowView.nib/objects-11.0+.nib</key>
 		<data>
-		/dXd09WnqH5VcqqoYRhL05Ak4tI=
+		O42wTpSnvprIn7GD6TsdXBcc6+g=
 		</data>
 		<key>CUIMultipleCallingWindowView.nib/runtime.nib</key>
 		<data>
-		aEAQX1QhyAIjkjqch5LyG+UUe9E=
+		XetBi1e5MLd2hZ8yDYuThPe5FKw=
 		</data>
 		<key>CUIMultipleItemViewCell.nib/objects-12.3+.nib</key>
 		<data>
-		OgDfYx6Hdvo9XtXu+x1DkUqry6s=
+		Nt8GXCvZWp26pJ7CDSJtN7rrL9Q=
 		</data>
 		<key>CUIMultipleItemViewCell.nib/runtime.nib</key>
 		<data>
-		uAUxgx9z7HNb8OsRZ7u/3E6FWL0=
+		j4+9NB4FvNHxzWhqklPIoiD60Vw=
 		</data>
 		<key>CUISingleVideoPopView.nib</key>
 		<data>
-		1OZ+Xq+wT8aHXBYl7wCytL8DA2I=
+		IUOaNZEWK+AmY42FgiZpira5NKw=
 		</data>
 		<key>CUISingleVideoWindowView.nib/objects-11.0+.nib</key>
 		<data>
-		uEDSUZiPgAPF7pPOktd9kPqoRVk=
+		bw/g1wiG2Kmo6YPcRwuH1E+iB0I=
 		</data>
 		<key>CUISingleVideoWindowView.nib/runtime.nib</key>
 		<data>
-		Z3sNzLkE9d6ti52B+xNcnV20epY=
+		GYreym+Wqa0q2PYgO9bybgLCVkk=
 		</data>
 		<key>CUSingleAudioCallWindowView.nib/objects-11.0+.nib</key>
 		<data>
-		xjfHusGZxeftXIfZVjA4TSBlQ6M=
+		W1tjowjx+AwAUnuSn1HLti2CO9w=
 		</data>
 		<key>CUSingleAudioCallWindowView.nib/runtime.nib</key>
 		<data>
-		lnK/wM8CsRMEJ1XBg2xn683EphI=
+		v1p52pabxpX+tyGwZ3P+QkGrX4w=
 		</data>
 		<key>CUSingleAudioPopView.nib/objects-11.0+.nib</key>
 		<data>
-		uw/gAGPnKwyDUxEpw/ckE38sy5c=
+		nH3BurrKdJX6dsZjCrxdAhb/zPs=
 		</data>
 		<key>CUSingleAudioPopView.nib/runtime.nib</key>
 		<data>
-		AvoSB51pQzJsPlDDMexgn6djEm0=
+		Iif2Akcaiy891y0HRa42OvwFCek=
 		</data>
 		<key>Frameworks/iPush.framework/GlobalErrorWindow.nib/objects-11.0+.nib</key>
 		<data>
-		LFYo3+EINVtvn0Xp8xUOCVQgk9I=
+		fCRalf82voin5mK8T7SRbhCVYfc=
 		</data>
 		<key>Frameworks/iPush.framework/GlobalErrorWindow.nib/runtime.nib</key>
 		<data>
-		sFybqI7QMEdd4Yo/ChaF8P9Nc0w=
+		dGUQMLCxnYLO6T61AX/OPQVnIgE=
 		</data>
 		<key>Frameworks/iPush.framework/Info.plist</key>
 		<data>
@@ -66,15 +66,15 @@
 		</data>
 		<key>Frameworks/iPush.framework/_CodeSignature/CodeResources</key>
 		<data>
-		R+wsoTY4eeaYwYm/DSD572wvnvg=
+		dQgeM217yZ4GFcRCmHkLsY/Lvms=
 		</data>
 		<key>Frameworks/iPush.framework/iPush</key>
 		<data>
-		HYxbQuHpgr5OEx0As5Dcnk4L4to=
+		TpuY5UmGPfyiXndPF7FMjG75lf8=
 		</data>
 		<key>Headers/iChat-Swift.h</key>
 		<data>
-		5YM3jJNOy3TgKCWYhvgLvBnTns0=
+		WJpWRQUznd2BS5p7oaRGVB1aSqs=
 		</data>
 		<key>Headers/iChat.h</key>
 		<data>
@@ -86,23 +86,23 @@
 		</data>
 		<key>Modules/iChat.swiftmodule/Project/arm.swiftsourceinfo</key>
 		<data>
-		8ld+FDnY5CJBMHSNJlny8AHxCHQ=
+		r+LZVc56w5B/Vfk4Uo6mtULfWZk=
 		</data>
 		<key>Modules/iChat.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		CdsaXmf/fhaIv5BXG+bx9C6Mh3M=
+		ZGCnMguQ+0v4z8qC6pLjfTT9qjQ=
 		</data>
 		<key>Modules/iChat.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		CdsaXmf/fhaIv5BXG+bx9C6Mh3M=
+		ZGCnMguQ+0v4z8qC6pLjfTT9qjQ=
 		</data>
 		<key>Modules/iChat.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
 		<data>
-		8ld+FDnY5CJBMHSNJlny8AHxCHQ=
+		r+LZVc56w5B/Vfk4Uo6mtULfWZk=
 		</data>
 		<key>Modules/iChat.swiftmodule/Project/armv7.swiftsourceinfo</key>
 		<data>
-		8ld+FDnY5CJBMHSNJlny8AHxCHQ=
+		r+LZVc56w5B/Vfk4Uo6mtULfWZk=
 		</data>
 		<key>Modules/iChat.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Modules/iChat.swiftmodule/arm.swiftmodule</key>
 		<data>
-		ii4UZYdQqU38Hj1hVHKT0Ip8T2g=
+		x1imtkJnGSP6zNtdo+SksN2rryA=
 		</data>
 		<key>Modules/iChat.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>Modules/iChat.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		keN1IiT+QiVaL1423rIIgB2w34M=
+		xxRC05K/veKB5az54fHl59Kk2PI=
 		</data>
 		<key>Modules/iChat.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>Modules/iChat.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		keN1IiT+QiVaL1423rIIgB2w34M=
+		xxRC05K/veKB5az54fHl59Kk2PI=
 		</data>
 		<key>Modules/iChat.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>Modules/iChat.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		ii4UZYdQqU38Hj1hVHKT0Ip8T2g=
+		x1imtkJnGSP6zNtdo+SksN2rryA=
 		</data>
 		<key>Modules/iChat.swiftmodule/armv7.swiftdoc</key>
 		<data>
@@ -142,7 +142,7 @@
 		</data>
 		<key>Modules/iChat.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		ii4UZYdQqU38Hj1hVHKT0Ip8T2g=
+		x1imtkJnGSP6zNtdo+SksN2rryA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -194,154 +194,154 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/8JOdBxEls1Ydii+f4/rf9XqG7U=
+			DT4ZXdwHQyGhR0L6kCFKppCqvDg=
 			</data>
 			<key>hash2</key>
 			<data>
-			1DiNNxZ6oUqaMiIBDhZD7nu3CCUq10AVeYS283T4B+k=
+			2CowA/h8CCSeXjEayf9SisAhP6LnjLzNNi3vpgVPXZU=
 			</data>
 		</dict>
 		<key>CUIMultipleCallingWindowView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/dXd09WnqH5VcqqoYRhL05Ak4tI=
+			O42wTpSnvprIn7GD6TsdXBcc6+g=
 			</data>
 			<key>hash2</key>
 			<data>
-			ag3FSwP+/MBmacUmtX/wTRCH4Uwl1WjbYOVaHdrVslc=
+			Io6WrD84ThhN2UpgoA9qossfnla/sNRG60xnWPyPMPs=
 			</data>
 		</dict>
 		<key>CUIMultipleCallingWindowView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aEAQX1QhyAIjkjqch5LyG+UUe9E=
+			XetBi1e5MLd2hZ8yDYuThPe5FKw=
 			</data>
 			<key>hash2</key>
 			<data>
-			vxF1CIXGrt8L/ECdgOLuE8wz719sDLjGjcjKzxTmQek=
+			Is2HTsZAlEIVUlp5OvctT3MNvmemhkncm4O/PwW6yxk=
 			</data>
 		</dict>
 		<key>CUIMultipleItemViewCell.nib/objects-12.3+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OgDfYx6Hdvo9XtXu+x1DkUqry6s=
+			Nt8GXCvZWp26pJ7CDSJtN7rrL9Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			tyUKkk2dCF2fP6Uci9eETAJ9thuBMBeyj/dkUNkQzuc=
+			mrfCVArX1N12NPHAIOEDxYiRTDm6q59Qkj+788Swdww=
 			</data>
 		</dict>
 		<key>CUIMultipleItemViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uAUxgx9z7HNb8OsRZ7u/3E6FWL0=
+			j4+9NB4FvNHxzWhqklPIoiD60Vw=
 			</data>
 			<key>hash2</key>
 			<data>
-			oi1UNEnlmAkJBIDeKV/CBSV4Pis4UNoiJyFFY5frIv4=
+			sBI+zbTE8MPe/ylEf+n//UlqTjHY6o3/pT4wrlKmV7Q=
 			</data>
 		</dict>
 		<key>CUISingleVideoPopView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1OZ+Xq+wT8aHXBYl7wCytL8DA2I=
+			IUOaNZEWK+AmY42FgiZpira5NKw=
 			</data>
 			<key>hash2</key>
 			<data>
-			HCPTZ/0zqT70HCYPg+tGd8+MVgCqAx1ssqCE5Nnnozc=
+			V1DCEn9N4AsRIxl/iWs4uy0XxW7WtVgwGggDMve9kRw=
 			</data>
 		</dict>
 		<key>CUISingleVideoWindowView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uEDSUZiPgAPF7pPOktd9kPqoRVk=
+			bw/g1wiG2Kmo6YPcRwuH1E+iB0I=
 			</data>
 			<key>hash2</key>
 			<data>
-			tEdYt2ZwN+kk88fGBZfrtLaJmTMTH0hZKy9iks2LLB0=
+			qPa754HCbdmIafmkWXgcSiz7Orjy3WM5xRqzFWsPH6c=
 			</data>
 		</dict>
 		<key>CUISingleVideoWindowView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Z3sNzLkE9d6ti52B+xNcnV20epY=
+			GYreym+Wqa0q2PYgO9bybgLCVkk=
 			</data>
 			<key>hash2</key>
 			<data>
-			hHe3kEjFhFayj3MMj8JOVEB86zHgeQK2EMK/gZRTx20=
+			mCre8muL2ZLlESFjKs9FXQfjNVNBenEoptRnAX6kiIo=
 			</data>
 		</dict>
 		<key>CUSingleAudioCallWindowView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xjfHusGZxeftXIfZVjA4TSBlQ6M=
+			W1tjowjx+AwAUnuSn1HLti2CO9w=
 			</data>
 			<key>hash2</key>
 			<data>
-			xOi/3TGMXOPN0IwQDRgORT1C1Qw+mkjzq4GX5BSXRhs=
+			fRNQccOg+1cijdNOJVjZDWatVPh2ML2ieJsX+a3oAtQ=
 			</data>
 		</dict>
 		<key>CUSingleAudioCallWindowView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lnK/wM8CsRMEJ1XBg2xn683EphI=
+			v1p52pabxpX+tyGwZ3P+QkGrX4w=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZpDrhEp2TjKRRFKiVWU8iSABnNKtJVvILIPfBxfe24Q=
+			pep8LQskWh/2Z+ip504Xh4MdKAT5gLfk3SmOUTBt2x8=
 			</data>
 		</dict>
 		<key>CUSingleAudioPopView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uw/gAGPnKwyDUxEpw/ckE38sy5c=
+			nH3BurrKdJX6dsZjCrxdAhb/zPs=
 			</data>
 			<key>hash2</key>
 			<data>
-			N03roodEjDFF+phKxVhu7kRnJNNePLoHDbx3pBw0OVI=
+			bn6v1EY/GY+aQSzr2jl1lda6m9hnhsUb4mPdIleEWu4=
 			</data>
 		</dict>
 		<key>CUSingleAudioPopView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AvoSB51pQzJsPlDDMexgn6djEm0=
+			Iif2Akcaiy891y0HRa42OvwFCek=
 			</data>
 			<key>hash2</key>
 			<data>
-			xRc5CvOME2vYE9MDMY+vU8T/AL/H0VhjruKUnUupHzo=
+			GxJ4j6StDGP3WYcXYxrls2nY3+hBxKDMvk/cIkshObI=
 			</data>
 		</dict>
 		<key>Frameworks/iPush.framework/GlobalErrorWindow.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LFYo3+EINVtvn0Xp8xUOCVQgk9I=
+			fCRalf82voin5mK8T7SRbhCVYfc=
 			</data>
 			<key>hash2</key>
 			<data>
-			x8LtRxKD9hOCUXj/gU25r19k1BjKnAKmFplp6Y2c4es=
+			N1x9Sc6cLsSHXIwJ9P5nf/BofGNVhXk6MViyzhZZ3T4=
 			</data>
 		</dict>
 		<key>Frameworks/iPush.framework/GlobalErrorWindow.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sFybqI7QMEdd4Yo/ChaF8P9Nc0w=
+			dGUQMLCxnYLO6T61AX/OPQVnIgE=
 			</data>
 			<key>hash2</key>
 			<data>
-			7tCzhlpc6CEwpTsVbLh4cVgoxlR00iCGeCkhQx2Jf5U=
+			EtUP4N5MTwB3IAxr0hiKHvqemfB8BgfWgZG4YnukW00=
 			</data>
 		</dict>
 		<key>Frameworks/iPush.framework/Info.plist</key>
@@ -359,33 +359,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			R+wsoTY4eeaYwYm/DSD572wvnvg=
+			dQgeM217yZ4GFcRCmHkLsY/Lvms=
 			</data>
 			<key>hash2</key>
 			<data>
-			sULWn9KQgEn45r0e2SIgGIYYpxhuxjtdfd5Q23tIKR4=
+			qBC9YNvu4Waeg60D7cv6XtrpVFtSmVNUtrhnjQmA5sQ=
 			</data>
 		</dict>
 		<key>Frameworks/iPush.framework/iPush</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HYxbQuHpgr5OEx0As5Dcnk4L4to=
+			TpuY5UmGPfyiXndPF7FMjG75lf8=
 			</data>
 			<key>hash2</key>
 			<data>
-			5MiLYSERZ/3iTSCQGuvGnSoQb6LBFadBBNHFeZz6h6E=
+			dzCovrqbnGa234n63GCyQfRN7dwzkeQhuxSOfQKHaZQ=
 			</data>
 		</dict>
 		<key>Headers/iChat-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5YM3jJNOy3TgKCWYhvgLvBnTns0=
+			WJpWRQUznd2BS5p7oaRGVB1aSqs=
 			</data>
 			<key>hash2</key>
 			<data>
-			aSMw6Tm/aZDE7/qSOZgGbsek0P0mkXNrybApkoLZVJs=
+			a6SO4WhVDKx18kW4L1TNfuCUhZYG0TdG3LBM907mJGg=
 			</data>
 		</dict>
 		<key>Headers/iChat.h</key>
@@ -403,55 +403,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8ld+FDnY5CJBMHSNJlny8AHxCHQ=
+			r+LZVc56w5B/Vfk4Uo6mtULfWZk=
 			</data>
 			<key>hash2</key>
 			<data>
-			mQrx3Em/GM6ExJ3n3a7stEKg4mR8+sAF4Y4V8lXGhpQ=
+			b83efNbloVL5dbxXOBSTH0JAHMGP403F5nxzya3edPY=
 			</data>
 		</dict>
 		<key>Modules/iChat.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CdsaXmf/fhaIv5BXG+bx9C6Mh3M=
+			ZGCnMguQ+0v4z8qC6pLjfTT9qjQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			WAsCTZZeZrKzClLxwqET7cuQBa8nhi1PlasEOXPdmgA=
+			YC01i+JY0giJa4HcXIfHed2B21psAx7fhDTXtYJJ/wA=
 			</data>
 		</dict>
 		<key>Modules/iChat.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CdsaXmf/fhaIv5BXG+bx9C6Mh3M=
+			ZGCnMguQ+0v4z8qC6pLjfTT9qjQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			WAsCTZZeZrKzClLxwqET7cuQBa8nhi1PlasEOXPdmgA=
+			YC01i+JY0giJa4HcXIfHed2B21psAx7fhDTXtYJJ/wA=
 			</data>
 		</dict>
 		<key>Modules/iChat.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8ld+FDnY5CJBMHSNJlny8AHxCHQ=
+			r+LZVc56w5B/Vfk4Uo6mtULfWZk=
 			</data>
 			<key>hash2</key>
 			<data>
-			mQrx3Em/GM6ExJ3n3a7stEKg4mR8+sAF4Y4V8lXGhpQ=
+			b83efNbloVL5dbxXOBSTH0JAHMGP403F5nxzya3edPY=
 			</data>
 		</dict>
 		<key>Modules/iChat.swiftmodule/Project/armv7.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8ld+FDnY5CJBMHSNJlny8AHxCHQ=
+			r+LZVc56w5B/Vfk4Uo6mtULfWZk=
 			</data>
 			<key>hash2</key>
 			<data>
-			mQrx3Em/GM6ExJ3n3a7stEKg4mR8+sAF4Y4V8lXGhpQ=
+			b83efNbloVL5dbxXOBSTH0JAHMGP403F5nxzya3edPY=
 			</data>
 		</dict>
 		<key>Modules/iChat.swiftmodule/arm.swiftdoc</key>
@@ -469,11 +469,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ii4UZYdQqU38Hj1hVHKT0Ip8T2g=
+			x1imtkJnGSP6zNtdo+SksN2rryA=
 			</data>
 			<key>hash2</key>
 			<data>
-			zpFnHiM/yoHT0xtuGwA12C5bR/adlBZINbzGGT8spnA=
+			nhv6T5pCd9BKjkQxo+4Qz4QC8YGH/+jYmU/xvTBHViU=
 			</data>
 		</dict>
 		<key>Modules/iChat.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -491,11 +491,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			keN1IiT+QiVaL1423rIIgB2w34M=
+			xxRC05K/veKB5az54fHl59Kk2PI=
 			</data>
 			<key>hash2</key>
 			<data>
-			15q5eP8my31p1pLQQTBvkxbgidGQ4/Z2A/NsPcFhrhk=
+			cIsWQoqcPTBcUmT6owWKwoSHpsjGYMZfpkbIbtoeG04=
 			</data>
 		</dict>
 		<key>Modules/iChat.swiftmodule/arm64.swiftdoc</key>
@@ -513,11 +513,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			keN1IiT+QiVaL1423rIIgB2w34M=
+			xxRC05K/veKB5az54fHl59Kk2PI=
 			</data>
 			<key>hash2</key>
 			<data>
-			15q5eP8my31p1pLQQTBvkxbgidGQ4/Z2A/NsPcFhrhk=
+			cIsWQoqcPTBcUmT6owWKwoSHpsjGYMZfpkbIbtoeG04=
 			</data>
 		</dict>
 		<key>Modules/iChat.swiftmodule/armv7-apple-ios.swiftdoc</key>
@@ -535,11 +535,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ii4UZYdQqU38Hj1hVHKT0Ip8T2g=
+			x1imtkJnGSP6zNtdo+SksN2rryA=
 			</data>
 			<key>hash2</key>
 			<data>
-			zpFnHiM/yoHT0xtuGwA12C5bR/adlBZINbzGGT8spnA=
+			nhv6T5pCd9BKjkQxo+4Qz4QC8YGH/+jYmU/xvTBHViU=
 			</data>
 		</dict>
 		<key>Modules/iChat.swiftmodule/armv7.swiftdoc</key>
@@ -557,11 +557,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ii4UZYdQqU38Hj1hVHKT0Ip8T2g=
+			x1imtkJnGSP6zNtdo+SksN2rryA=
 			</data>
 			<key>hash2</key>
 			<data>
-			zpFnHiM/yoHT0xtuGwA12C5bR/adlBZINbzGGT8spnA=
+			nhv6T5pCd9BKjkQxo+4Qz4QC8YGH/+jYmU/xvTBHViU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

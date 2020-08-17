@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.author       = "胡式华"
   spec.name         = "iChat"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "iChat SDK for iOS"
   spec.description  = "iChat P2P SDK for iOS"
   spec.homepage     = "https://github.com/hushihua/iChat.git"
@@ -13,5 +13,15 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.ios.deployment_target = "10.0"
   spec.ios.vendored_frameworks = "iChat.framework"
+  
+  spec.frameworks = "Foundation", "UIKit"
+  spec.swift_version='5.0'
+  
+  spec.dependency 'iPush'
+  
+  spec.dependency 'SDWebImage'
+  spec.dependency 'MBProgressHUD'
+  spec.dependency 'GoogleWebRTC'
+  spec.dependency 'IQKeyboardManager', '6.2.1'
   
 end
