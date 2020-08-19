@@ -188,9 +188,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreGraphics;
 @import ObjectiveC;
-@import UIKit;
 @import UserNotifications;
 @import iPush;
 #endif
@@ -215,31 +213,6 @@ SWIFT_CLASS("_TtC5iChat12CHHttpClient")
 @interface CHHttpClient : PHHttpClient
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
-
-@class UIColor;
-@class NSCoder;
-
-SWIFT_CLASS("_TtC5iChat15SPCornerControl")
-@interface SPCornerControl : UIControl
-@property (nonatomic) IBInspectable CGFloat cornerRadius;
-@property (nonatomic) IBInspectable CGFloat borderSize;
-@property (nonatomic, strong) IBInspectable UIColor * _Nullable bordersColor;
-@property (nonatomic, strong) IBInspectable UIColor * _Nullable shadowColor;
-@property (nonatomic) IBInspectable float shadowOpacity;
-@property (nonatomic) IBInspectable CGSize shadowOffset;
-@property (nonatomic) IBInspectable CGFloat shadowRadius;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC5iChat21CUISingleVideoPopView")
-@interface CUISingleVideoPopView : SPCornerControl
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 
 
 SWIFT_CLASS("_TtC5iChat15CUISipSingleton")
@@ -286,7 +259,6 @@ SWIFT_CLASS("_TtC5iChat7ChatApi")
 - (void)willPresentWithNotification:(UNNotification * _Nonnull)notification completionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))completionHandler;
 - (void)didReceiveRemoteNotificationWithUserInfo:(NSDictionary * _Nonnull)userInfo;
 @end
-
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -482,9 +454,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreGraphics;
 @import ObjectiveC;
-@import UIKit;
 @import UserNotifications;
 @import iPush;
 #endif
@@ -509,31 +479,6 @@ SWIFT_CLASS("_TtC5iChat12CHHttpClient")
 @interface CHHttpClient : PHHttpClient
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
-
-@class UIColor;
-@class NSCoder;
-
-SWIFT_CLASS("_TtC5iChat15SPCornerControl")
-@interface SPCornerControl : UIControl
-@property (nonatomic) IBInspectable CGFloat cornerRadius;
-@property (nonatomic) IBInspectable CGFloat borderSize;
-@property (nonatomic, strong) IBInspectable UIColor * _Nullable bordersColor;
-@property (nonatomic, strong) IBInspectable UIColor * _Nullable shadowColor;
-@property (nonatomic) IBInspectable float shadowOpacity;
-@property (nonatomic) IBInspectable CGSize shadowOffset;
-@property (nonatomic) IBInspectable CGFloat shadowRadius;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC5iChat21CUISingleVideoPopView")
-@interface CUISingleVideoPopView : SPCornerControl
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 
 
 SWIFT_CLASS("_TtC5iChat15CUISipSingleton")
@@ -580,7 +525,6 @@ SWIFT_CLASS("_TtC5iChat7ChatApi")
 - (void)willPresentWithNotification:(UNNotification * _Nonnull)notification completionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))completionHandler;
 - (void)didReceiveRemoteNotificationWithUserInfo:(NSDictionary * _Nonnull)userInfo;
 @end
-
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
