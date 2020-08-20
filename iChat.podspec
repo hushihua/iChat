@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.author       = "胡式华"
   spec.name         = "iChat"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "iChat SDK for iOS"
   spec.description  = "iChat P2P SDK for iOS"
   spec.homepage     = "https://github.com/hushihua/iChat.git"
