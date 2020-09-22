@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.author       = "胡式华"
   spec.name         = "iChat"
-  spec.version      = "1.0.5"
+  spec.version      = "1.0.6"
   spec.summary      = "iChat SDK for iOS"
   spec.description  = "iChat P2P SDK for iOS"
   spec.homepage     = "https://github.com/hushihua/iChat.git"
@@ -23,5 +23,9 @@ Pod::Spec.new do |spec|
   spec.dependency 'MBProgressHUD'
   spec.dependency 'GoogleWebRTC'
   spec.dependency 'IQKeyboardManager', '6.2.1'
+  
+    
+  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
 end

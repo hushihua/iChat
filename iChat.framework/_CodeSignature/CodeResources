@@ -6,59 +6,59 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		UPH+lb5UpJw8GOpK/L1maW4lEJM=
+		/JhPuDmCVV/JQjdRV1nO5BsO0YQ=
 		</data>
 		<key>CUIMultipleCallingWindowView.nib/objects-11.0+.nib</key>
 		<data>
-		MP5N7nVRKHFCy54eadcrmkjR+eI=
+		e7JDBGUCRAySBK6HnLYKcKTCA88=
 		</data>
 		<key>CUIMultipleCallingWindowView.nib/runtime.nib</key>
 		<data>
-		CvvdPOnPPs7xJfwqj/ewFCrDOJc=
+		A0zFBup7bRX7/TqgqWzSHOjlnkY=
 		</data>
 		<key>CUIMultipleItemViewCell.nib/objects-12.3+.nib</key>
 		<data>
-		kMGyxipQPAz017Y0bDdHabFxxgI=
+		JKQMQdap6cjEO7mTBWzLV79OUWg=
 		</data>
 		<key>CUIMultipleItemViewCell.nib/runtime.nib</key>
 		<data>
-		s0+MS1aC23cUntK4zQw6AQJ4yaU=
+		M5cTF7WzHZFbVOJdkF8RJ305Gz4=
 		</data>
 		<key>CUISingleVideoPopView.nib</key>
 		<data>
-		ZJAqJttfRv7ZD9smY/21GlRgG50=
+		ZwhJZgoETkt29aTljkQC+x4D+kg=
 		</data>
 		<key>CUISingleVideoWindowView.nib/objects-11.0+.nib</key>
 		<data>
-		go5Y9b/ZeHhF5yqbs9VoW2c8dvw=
+		fgEAeCCc5EYrmj/lZ3sEpDc1ADI=
 		</data>
 		<key>CUISingleVideoWindowView.nib/runtime.nib</key>
 		<data>
-		spsNT7B4xBIdMpdQe+uxxoMTlio=
+		KWjbKhJcYe7rXG4ORz/CYW9ZJHo=
 		</data>
 		<key>CUSingleAudioCallWindowView.nib/objects-11.0+.nib</key>
 		<data>
-		8JpaMx7QMfrbTwy9g7cQ1YPXD7o=
+		aqm/bQEeVe2G3LjjRN8CzdHve+4=
 		</data>
 		<key>CUSingleAudioCallWindowView.nib/runtime.nib</key>
 		<data>
-		0ufbWl5TJODmaedfVkKNeZubXm4=
+		EkDmIpdFDGY1vVrOmogzpxx3uTM=
 		</data>
 		<key>CUSingleAudioPopView.nib/objects-11.0+.nib</key>
 		<data>
-		+Enas5CesrFnLFR0M3X7qEKm8yw=
+		C0isM5Y5Iyg0fDGLxGc0Q9Rwons=
 		</data>
 		<key>CUSingleAudioPopView.nib/runtime.nib</key>
 		<data>
-		dnVK270B/jcwRglMECeeRH+dR1M=
+		E7ov47m2BTN9t9QmUMtQjZnqdrM=
 		</data>
 		<key>Frameworks/iPush.framework/GlobalErrorWindow.nib/objects-11.0+.nib</key>
 		<data>
-		pFp21nSAh9B5A+lrSy9BJqfwpzk=
+		SuKfjfGjwa5mMqCEqgFBefIUKNg=
 		</data>
 		<key>Frameworks/iPush.framework/GlobalErrorWindow.nib/runtime.nib</key>
 		<data>
-		em8FdPuy/sDDjsZ+rdiYgimVBI0=
+		uzdIUH5DLt1KFrXv8pmMygvaDVA=
 		</data>
 		<key>Frameworks/iPush.framework/Info.plist</key>
 		<data>
@@ -66,11 +66,11 @@
 		</data>
 		<key>Frameworks/iPush.framework/_CodeSignature/CodeResources</key>
 		<data>
-		EpRXNGTAf3XQ29DNXpfGxu7u3jA=
+		/6mQVB+om6vUsjjrxqNLV/KdfAc=
 		</data>
 		<key>Frameworks/iPush.framework/iPush</key>
 		<data>
-		CP/OlSP/kMR5rQDQBUHU1xPHYCc=
+		PHSrckE5Eux4We2PcOuDpHKLcCE=
 		</data>
 		<key>Headers/iChat-Swift.h</key>
 		<data>
@@ -194,154 +194,154 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UPH+lb5UpJw8GOpK/L1maW4lEJM=
+			/JhPuDmCVV/JQjdRV1nO5BsO0YQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			+eggYron+2yeIISh4n8mtncyRHz5yDgubJL6N9zC5U8=
+			ZgfgcEiwbGkxz6L4o6sG+7fZG+VGxLKFepU4nKLkwYw=
 			</data>
 		</dict>
 		<key>CUIMultipleCallingWindowView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MP5N7nVRKHFCy54eadcrmkjR+eI=
+			e7JDBGUCRAySBK6HnLYKcKTCA88=
 			</data>
 			<key>hash2</key>
 			<data>
-			H+DVWzm6grvWDFl03vjswWmShFad6DhxT6CkomXuO3E=
+			b4IpUx9yRfnw+xHkqZa4m3OqqDDqU/fMYliqexeAhhs=
 			</data>
 		</dict>
 		<key>CUIMultipleCallingWindowView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CvvdPOnPPs7xJfwqj/ewFCrDOJc=
+			A0zFBup7bRX7/TqgqWzSHOjlnkY=
 			</data>
 			<key>hash2</key>
 			<data>
-			GcrsDW1jlI7esna+lBj8EvZ4TrCkjRBYmGohQweJXyU=
+			dn5BVS9JtwAgF585WqWp5STtZrRBSu2wQEibDE1y/nQ=
 			</data>
 		</dict>
 		<key>CUIMultipleItemViewCell.nib/objects-12.3+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kMGyxipQPAz017Y0bDdHabFxxgI=
+			JKQMQdap6cjEO7mTBWzLV79OUWg=
 			</data>
 			<key>hash2</key>
 			<data>
-			F1gZEfhPp2rUjeBSdLVVbrr8kHMW9TVggSVbVHBHklQ=
+			SGhWZ1mEr0UqXWSMyJTnVoIzl4yzpR+hSHPQXQVGkuw=
 			</data>
 		</dict>
 		<key>CUIMultipleItemViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			s0+MS1aC23cUntK4zQw6AQJ4yaU=
+			M5cTF7WzHZFbVOJdkF8RJ305Gz4=
 			</data>
 			<key>hash2</key>
 			<data>
-			A3prRkJmUrj1mI50G85FStIA/ivHPfgUjUwIs6G6OUU=
+			WAr0P+Qj2mTR1Ye9PXNukl1yKbK6A4TXeHhMh/tr9vY=
 			</data>
 		</dict>
 		<key>CUISingleVideoPopView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZJAqJttfRv7ZD9smY/21GlRgG50=
+			ZwhJZgoETkt29aTljkQC+x4D+kg=
 			</data>
 			<key>hash2</key>
 			<data>
-			tB6aGBxsO/xn/buhgBeVswpXJ4IcqX1f2vkOyEglPD4=
+			yNHV0tk5gTP+ZdKXeH3DPTw46yVwIedlRsnrEFWL5rg=
 			</data>
 		</dict>
 		<key>CUISingleVideoWindowView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			go5Y9b/ZeHhF5yqbs9VoW2c8dvw=
+			fgEAeCCc5EYrmj/lZ3sEpDc1ADI=
 			</data>
 			<key>hash2</key>
 			<data>
-			gNUhVxxjIrnlOQ5PhbLUBC+PhZj1gIGNoYLwfMxlnYk=
+			1O95zcuV4glF/a17Snvh3v343KcY/3tpz2w1ONeRPiY=
 			</data>
 		</dict>
 		<key>CUISingleVideoWindowView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			spsNT7B4xBIdMpdQe+uxxoMTlio=
+			KWjbKhJcYe7rXG4ORz/CYW9ZJHo=
 			</data>
 			<key>hash2</key>
 			<data>
-			/4ok9MHDq2Qg3N0EWmKz/+Mt4Za9cOos8d1HVv72e8Y=
+			1PvtGk1WNnTXUWNZwQgLbj9dnHpWuf7sJZMC3hJ+vLQ=
 			</data>
 		</dict>
 		<key>CUSingleAudioCallWindowView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8JpaMx7QMfrbTwy9g7cQ1YPXD7o=
+			aqm/bQEeVe2G3LjjRN8CzdHve+4=
 			</data>
 			<key>hash2</key>
 			<data>
-			1mrnPYzK17DtYPtSnlZvmY0RX2S1bXTqJjcVC1Kughg=
+			/2max4EuYYp8Pmn4E9Zfqm9BhrOsABFD8a9PgDIBN38=
 			</data>
 		</dict>
 		<key>CUSingleAudioCallWindowView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0ufbWl5TJODmaedfVkKNeZubXm4=
+			EkDmIpdFDGY1vVrOmogzpxx3uTM=
 			</data>
 			<key>hash2</key>
 			<data>
-			xmh9mHj65i3Nu32pF0KGiRKMoBohEjjD7Jbbn3SB7Oc=
+			j4DyJSn3eY93wzy3TRNBXBkpdTp+caueI3GyTu8/av0=
 			</data>
 		</dict>
 		<key>CUSingleAudioPopView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+Enas5CesrFnLFR0M3X7qEKm8yw=
+			C0isM5Y5Iyg0fDGLxGc0Q9Rwons=
 			</data>
 			<key>hash2</key>
 			<data>
-			+tNxBR35AtM2l/rFac7oKga1BCLBBrd/Nql6Ler1wrw=
+			eYnZVd/ASIdawsa5yiuglpsqZUNS69jdrxo9SA8WjWY=
 			</data>
 		</dict>
 		<key>CUSingleAudioPopView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dnVK270B/jcwRglMECeeRH+dR1M=
+			E7ov47m2BTN9t9QmUMtQjZnqdrM=
 			</data>
 			<key>hash2</key>
 			<data>
-			oCMzfp3axPaRxjs9N5etqjvRimD712x1jILsgA5dU88=
+			NP0xT5z72EdMwXlhs3utuamjHrrnDiULZpjiKxsvGTc=
 			</data>
 		</dict>
 		<key>Frameworks/iPush.framework/GlobalErrorWindow.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pFp21nSAh9B5A+lrSy9BJqfwpzk=
+			SuKfjfGjwa5mMqCEqgFBefIUKNg=
 			</data>
 			<key>hash2</key>
 			<data>
-			QSQ4ZkzvKlCiNhpw56BcxWXxzLGAnhBrkYxCdchpWkw=
+			hDHYCdWzAeiiVERCphjr06YLHxb8/PY6EzptU/Y/r1k=
 			</data>
 		</dict>
 		<key>Frameworks/iPush.framework/GlobalErrorWindow.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			em8FdPuy/sDDjsZ+rdiYgimVBI0=
+			uzdIUH5DLt1KFrXv8pmMygvaDVA=
 			</data>
 			<key>hash2</key>
 			<data>
-			yFaQ2fy3r9BS0jYCzZj1dKOAw70zz+cMnqnImMHM6oM=
+			91Cu7CZApbuEZ2CoL78ejO0ZOI3Y4Q0H65RccpwmjYw=
 			</data>
 		</dict>
 		<key>Frameworks/iPush.framework/Info.plist</key>
@@ -359,22 +359,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EpRXNGTAf3XQ29DNXpfGxu7u3jA=
+			/6mQVB+om6vUsjjrxqNLV/KdfAc=
 			</data>
 			<key>hash2</key>
 			<data>
-			GRBpENimMIYeB8LU6t3OyJna0pqsmCp1NRLTecu5Ea4=
+			pMqr+ONJ5GzWgYIgPBsksTMzJSAdIsPzbjOr4YHs9mM=
 			</data>
 		</dict>
 		<key>Frameworks/iPush.framework/iPush</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CP/OlSP/kMR5rQDQBUHU1xPHYCc=
+			PHSrckE5Eux4We2PcOuDpHKLcCE=
 			</data>
 			<key>hash2</key>
 			<data>
-			RWVT94c6GcH3cKaG1X1w5ZPEB30pjcHExUi636MmnP4=
+			te9/6NJr1NUK/xPJEntdiJSBbyE32KAcGU5Y6BFDXrs=
 			</data>
 		</dict>
 		<key>Headers/iChat-Swift.h</key>
