@@ -1,0 +1,172 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-module-flags: -target i386-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name iChat
+import AVFoundation
+import AudioToolbox
+import CommonCrypto
+import MBProgressHUD
+import SDWebImage
+import Swift
+import UIKit
+import WebRTC
+@_exported import iChat
+import iPush
+public enum Language : Swift.String {
+  case zh_Hans
+  case en
+  case km_KH
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_inheritsConvenienceInitializers public class CHHttpClient : iPush.PHHttpClient {
+  override public func getCommonParams() -> Swift.Dictionary<Swift.String, Swift.String>
+  override public func requestPost(requestUrl: Swift.String, params: Swift.Dictionary<Swift.String, Any>, handler: @escaping (iPush.PHResponse<Any>) -> Swift.Void)
+  public func refreshToken(token: Swift.String, handler: @escaping (iPush.PHResponse<iChat.CUSipUserInfo>) -> Swift.Void)
+  public func checkSessionError(errorCode: Swift.Int, jsonObject: Swift.Dictionary<Swift.String, Any>) -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum SIPType : Swift.Int {
+  case none
+  case apply
+  case calling
+  case exchagne
+  case success
+  case finish
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class CUISipSingleton : ObjectiveC.NSObject {
+  public static func getInstance() -> iChat.CUISipSingleton
+  public var state: iChat.SIPType
+  public var runningRoomId: Swift.String?
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol CUSipManagerListener {
+  func onJoinded(chatId: Swift.String, roomId: Swift.String, users: [iChat.CUSipUserInfo], myId: Swift.String)
+  func onCancel(roomId: Swift.String)
+  func onInvite(roomId: Swift.String, users: [iChat.CUSipUserInfo], fUid: Swift.String, audioOnly: Swift.Bool)
+  func onBusy(roomId: Swift.String, fUid: Swift.String)
+  func onReject(roomId: Swift.String, fUid: Swift.String)
+  func onNewJoin(roomId: Swift.String, user: iChat.CUSipUserInfo)
+  func onNewMember(roomId: Swift.String, user: iChat.CUSipUserInfo)
+  func onOffer(roomId: Swift.String, sdp: Swift.String, fUid: Swift.String)
+  func onReceiveCandidate(roomId: Swift.String, sdpMid: Swift.String, sdpMLineIndex: Swift.Int32, candidate: Swift.String, fUid: Swift.String)
+  func onAnswer(roomId: Swift.String, sdp: Swift.String, fUid: Swift.String)
+  func onVideoStateChange(roomId: Swift.String, fUid: Swift.String, enable: Swift.Bool)
+  func onLeave(roomId: Swift.String, fUid: Swift.String)
+  func onFinish(roomId: Swift.String)
+  func onPickup(roomId: Swift.String)
+}
+@_inheritsConvenienceInitializers public class CUSipManager : iChat.CHHttpClient {
+  public static func getInstance() -> iChat.CUSipManager
+  public var listener: iChat.CUSipManagerListener?
+  public func start(chatId: Swift.String, deviceId: Swift.String)
+  public func join(roomId: Swift.String, deviceId: Swift.String)
+  public func invite(roomId: Swift.String, ids: [Swift.String], audioOnly: Swift.Int)
+  public func cancel(roomId: Swift.String)
+  public func ring(roomId: Swift.String)
+  public func reject(roomId: Swift.String)
+  public func sendOffer(roomId: Swift.String, sdp: Swift.String, toUid: Swift.String)
+  public func answer(roomId: Swift.String, sdp: Swift.String, toUid: Swift.String)
+  public func sendIcdCandidate(roomId: Swift.String, sdpMid: Swift.String?, sdpMLineIndex: Swift.Int32, candidate: Swift.String, toUid: Swift.String)
+  public func busy(roomId: Swift.String)
+  public func startStream(roomId: Swift.String)
+  public func sendVideoEnable(roomId: Swift.String, enable: Swift.Bool)
+  public func sendLeave(roomId: Swift.String)
+  public func sendError(roomId: Swift.String, uid: Swift.String)
+  public func sendHeartBeat(roomId: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class CURoomInfo : ObjectiveC.NSObject {
+  public var chatId: Swift.String?
+  public var roomId: Swift.String?
+  public var userList: [iChat.CUSipUserInfo]?
+  public var audioOnly: Swift.Bool
+  public var status: Swift.Int
+  public static func parseToObject(_ dict: [Swift.String : Any]) -> iChat.CURoomInfo
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class CUSipUserInfo : ObjectiveC.NSObject {
+  public var uid: Swift.String?
+  public var name: Swift.String?
+  public var iconUrl: Swift.String?
+  public var isIinitiator: Swift.Bool
+  public var status: Swift.Int
+  public static func parseToObject(_ dict: [Swift.String : Any]) -> iChat.CUSipUserInfo?
+  public static func parseToList(_ array: [[Swift.String : Any]]) -> [iChat.CUSipUserInfo]
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension CUSipManager {
+  public func idLogin(uid: Swift.String, password: Swift.String, handler: @escaping (iPush.PHResponse<iChat.CUSipUserInfo>) -> Swift.Void)
+  public func logout(handler: @escaping (iPush.PHResponse<Swift.Bool>) -> Swift.Void)
+  public func getRoomInfo(roomId: Swift.String, handler: @escaping (iPush.PHResponse<iChat.CURoomInfo>) -> Swift.Void)
+  public func start(chatId: Swift.String, deviceId: Swift.String, handler: @escaping (iPush.PHResponse<[Swift.String : Any]>) -> Swift.Void)
+  public func join(roomId: Swift.String, deviceId: Swift.String, handler: @escaping (iPush.PHResponse<[Swift.String : Any]>) -> Swift.Void)
+  public func invite(roomId: Swift.String, ids: [Swift.String], audioOnly: Swift.Int, handler: @escaping (iPush.PHResponse<[Swift.String : Any]>) -> Swift.Void)
+  public func cancel(roomId: Swift.String, handler: @escaping (iPush.PHResponse<[Swift.String : Any]>) -> Swift.Void)
+  public func reject(roomId: Swift.String, handler: @escaping (iPush.PHResponse<[Swift.String : Any]>) -> Swift.Void)
+  public func sendOffer(roomId: Swift.String, sdp: Swift.String, toUid: Swift.String, handler: @escaping (iPush.PHResponse<[Swift.String : Any]>) -> Swift.Void)
+  public func answer(roomId: Swift.String, sdp: Swift.String, toUid: Swift.String, handler: @escaping (iPush.PHResponse<[Swift.String : Any]>) -> Swift.Void)
+  public func sendIcdCandidate(roomId: Swift.String, sdpMid: Swift.String?, sdpMLineIndex: Swift.Int32, candidate: Swift.String, toUid: Swift.String, handler: @escaping (iPush.PHResponse<[Swift.String : Any]>) -> Swift.Void)
+  public func leave(roomId: Swift.String, handler: @escaping (iPush.PHResponse<[Swift.String : Any]>) -> Swift.Void)
+}
+extension CUISipSingleton : iChat.CUSipManagerListener {
+  public func onAPNSInvite(chatId: Swift.String, roomId: Swift.String)
+  public func onAPNSCancel(chatId: Swift.String, roomId: Swift.String)
+  public func onJoinded(chatId: Swift.String, roomId: Swift.String, users: [iChat.CUSipUserInfo], myId: Swift.String)
+  public func onCancel(roomId: Swift.String)
+  public func onInvite(roomId: Swift.String, users: [iChat.CUSipUserInfo], fUid: Swift.String, audioOnly: Swift.Bool)
+  public func onBusy(roomId: Swift.String, fUid: Swift.String)
+  public func onReject(roomId: Swift.String, fUid: Swift.String)
+  public func onNewJoin(roomId: Swift.String, user: iChat.CUSipUserInfo)
+  public func onOffer(roomId: Swift.String, sdp: Swift.String, fUid: Swift.String)
+  public func onAnswer(roomId: Swift.String, sdp: Swift.String, fUid: Swift.String)
+  public func onReceiveCandidate(roomId: Swift.String, sdpMid: Swift.String, sdpMLineIndex: Swift.Int32, candidate: Swift.String, fUid: Swift.String)
+  public func onVideoStateChange(roomId: Swift.String, fUid: Swift.String, enable: Swift.Bool)
+  public func onLeave(roomId: Swift.String, fUid: Swift.String)
+  public func onPickup(roomId: Swift.String)
+  public func onFinish(roomId: Swift.String)
+  public func onNewMember(roomId: Swift.String, user: iChat.CUSipUserInfo)
+}
+extension ChatApi : iPush.PushNotificationDelegate {
+  @objc dynamic public func didReceive(notification: UserNotifications.UNNotification)
+  @objc dynamic public func willPresent(notification: UserNotifications.UNNotification, completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
+  @objc dynamic public func didReceiveRemoteNotification(userInfo: [Swift.AnyHashable : Any])
+}
+@objc @_inheritsConvenienceInitializers public class ChatApi : ObjectiveC.NSObject {
+  public static func getInstance() -> iChat.ChatApi
+  public var DEBUG: Swift.Int {
+    get
+    set
+  }
+  public func initSDK(appKey: Swift.String)
+  public func resetLanguage(language: iChat.Language)
+  public func login(uid: Swift.String, password: Swift.String, handler: @escaping (iPush.PHResponse<iChat.CUSipUserInfo>) -> Swift.Void)
+  public func logout(handler: @escaping (iPush.PHResponse<Swift.Bool>) -> Swift.Void)
+  public func startVideo(chatId: Swift.String = "", users: [iChat.CUSipUserInfo])
+  public func startAudio(chatId: Swift.String = "", users: [iChat.CUSipUserInfo])
+  public func joinChatRoom(chatId: Swift.String = "", roomId: Swift.String, audioOnly: Swift.Bool)
+  public func getRoomInfo(roomId: Swift.String, handler: @escaping (iPush.PHResponse<iChat.CURoomInfo>) -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension CUSipManager : iPush.PHSocketHandler {
+  public func onEventHandler(notification: iPush.PHCMDItem)
+}
+extension iChat.Language : Swift.Equatable {}
+extension iChat.Language : Swift.Hashable {}
+extension iChat.Language : Swift.RawRepresentable {}
+extension iChat.SIPType : Swift.Equatable {}
+extension iChat.SIPType : Swift.Hashable {}
+extension iChat.SIPType : Swift.RawRepresentable {}
